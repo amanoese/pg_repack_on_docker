@@ -9,7 +9,7 @@ RUN dnf update -y && \
     dnf install -y postgresql12 postgresql12-devel readline-devel
 
 ENV PATH $PATH:/usr/pgsql-12/bin
-RUN wget --no-check-certificate -q -O pg_repack.zip "https://api.pgxn.org/dist/pg_repack/1.4.4/pg_repack-1.4.4.zip"
+RUN wget --no-check-certificate -q -O pg_repack.zip "https://api.pgxn.org/dist/pg_repack/1.4.5/pg_repack-1.4.5.zip"
 RUN unzip pg_repack.zip && rm pg_repack.zip
 WORKDIR pg_repack-1.4.5
 RUN ls -la /usr/pgsql-12/bin/pg_config
