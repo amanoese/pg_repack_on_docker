@@ -4,7 +4,7 @@ pg_repack on docker
 Reference: https://github.com/amanoese/pg_repack_on_docker  
 Dockerhub: https://hub.docker.com/r/amanoese/pg_repack  
 
-##Supported tags and respective Dockerfile links
+## Supported tags and respective Dockerfile links
  - [1.4.6,latest](https://github.com/amanoese/pg_repack_on_docker/blob/master/src/centos8/1.4.6/Dockerfile)
  - [1.4.5](https://github.com/amanoese/pg_repack_on_docker/blob/master/src/centos8/1.4.5/Dockerfile)
  - [1.4.4](https://github.com/amanoese/pg_repack_on_docker/blob/master/src/centos8/1.4.4/Dockerfile)
